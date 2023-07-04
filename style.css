@@ -11,6 +11,9 @@ body{
     background-position: center;
 
 }
+header{
+    color: transparent;
+}
 main{
     height: 100vh;
     display: flex;
@@ -184,7 +187,6 @@ main{
     font-size: 20px;
     transition: .4s;
 }
-
 @media screen and (max-width: 600px) {
     .foto-profil{
         height: 70px;
