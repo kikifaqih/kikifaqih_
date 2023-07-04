@@ -5,23 +5,25 @@
 }
 
 body{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: white url(peakpx.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 
 }
-
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
 .container{
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
 }
 .foto-profil{
     width: 100px;
@@ -181,4 +183,86 @@ body{
     font-family:'Solway', serif ;
     font-size: 20px;
     transition: .4s;
+}
+
+@media screen and (max-width: 330px) {
+    .foto-profil{
+        height: 70px;
+        width: 70px;
+    }
+    .judul{
+        font-size: 14px;
+    }
+    .ucapan{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:'Solway', serif ;
+        width: 230px;
+        height: 95px;
+        border: solid #187498 ;
+        background-color: #C4DFAA;
+
+        border-radius: 24px;
+        margin-bottom: 10px;
+    }
+    #instagram{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        width: 230px;
+        border: solid #34BE82 ;
+        border-radius: 24px;
+        color: white;
+        margin-bottom: 10px;
+        font-family:'Solway', serif ;
+        cursor: pointer;
+        transition: .4s;
+    }
+    #tiktok{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        width: 230px;
+        border: solid #34BE82 ;
+        border-radius: 34px ;
+        color: white;
+        margin-bottom: 10px;
+        font-family:'Solway', serif ;
+        cursor: pointer;
+        transition: .4s;
+    }
+    #youtube{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        width: 230px;
+        border: solid #34BE82 ;
+        border-radius: 34px ;
+        color: white;
+        margin-bottom: 10px;
+        font-family:'Solway', serif ;
+        cursor: pointer;
+        transition: .4s;
+    }
+    #spotify{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        width: 230px;
+        border: solid #34BE82 ;
+        border-radius: 34px ;
+        color: white;
+        margin-bottom: 10px;
+        font-family:'Solway', serif ;
+        cursor: pointer;
+        transition: .4s;
+    }
+    .text{
+        font-family:'Solway', serif ;
+        font-size:medium;
+        color: whitesmoke;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
