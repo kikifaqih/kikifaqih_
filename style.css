@@ -185,7 +185,7 @@ main{
     transition: .4s;
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 600px) {
     .foto-profil{
         height: 70px;
         width: 70px;
